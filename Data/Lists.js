@@ -11,7 +11,7 @@ const fs = require('fs');
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 // Bot token from environment variable or directly
-const bot = new Telegraf(process.env.BOT_TOKEN || 'YOUR_TELEGRAM_BOT_TOKEN');
+const bot = new Telegraf(process.env.BOT_TOKEN || '7863322072:AAFLohSBYqeTpx8eLrsZz0YBD_4rEP627-4');
 
 // Global variables
 let sentRequests = 0;
@@ -70,11 +70,21 @@ const ApiDomain = [
 // Banner function
 function showBanner(ctx) {
     const banner = `
-█░█ ▄▀█ █▄█   ▀█▀ █ █▄▀ ▀█▀ █▀█ █▄▀
-▀▄▀ █▀█ ░█░   ░█░ █ █░█ ░█░ █▄█ █░█
-        discord.gg/e7DpUWSU7q
-
-TikTok View/Share Bot
+ ===============================
+ ▀█▀ █ █▄▀ ▀█▀ █▀█ █▄▀
+ ░█░ █ █░█ ░█░ █▄█ █░█
+===============================
+=    TOOLS BAN TIKTOK 2025    =
+===============================
+AUTHOR  : LORDHOZOOO
+DILIRIS  : 2025-05-06 SELASA
+YOUTUBE  : LORDHOZOO
+TIKTOK   : LORDHOZOO
+===============================
+=           TEAM              =
+===============================
+= SYSTEM UMBRELA DRAK9999    =
+===============================
 `;
     ctx.replyWithMarkdown(`\`\`\`${banner}\`\`\``);
 }
